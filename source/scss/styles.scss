@@ -1,0 +1,118 @@
+$primary: #1A263D;
+$secondary: #A9C1FF;
+$tertiary: #ee455C;
+$border-color: #405282;
+
+body {
+  background-color: $primary;
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  span.red {
+    color: $tertiary;
+  }
+}
+
+h2 {
+  color: white;
+  font-size: 2.6em;
+}
+
+.btn-go {
+  background-color: $tertiary;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-size: 2em;
+  margin-top: 50px;
+  padding: 18px 100px 18px 100px;
+}
+
+.device-block {
+  margin-left: 42%;
+  .minus-wrapper {
+    float: left;
+    margin-top: 90px;
+  }
+  .btn-minus {
+    color: $secondary;
+    border-radius: 50px;
+    background-color: #33426B;
+    line-height: 0.7em;
+    padding: 3px 18px 12px 18px;
+    font-size: 4.4em;
+  }
+  .device-number {
+    color: $secondary;
+    float: left;
+    font-size: 13em;
+    margin-left: 2%;
+  }
+  .plus-wrapper {
+    float: left;
+    margin-top: 90px;
+    margin-left: -7px;
+  }  
+  .btn-plus {
+    // margin-bottom: 80px;
+    color: $secondary;
+    border-radius: 50px;
+    background-color: #33426B;
+    line-height: 0.6em;
+    padding: 11px;
+    padding-bottom: 12px;
+    font-size: 4em;
+  }
+}
+
+
+
+.mobile{
+  border-left: 1px dotted $border-color;
+}
+
+.console {
+  border-left: 1px dotted $border-color;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.streaming {
+  border-left: 1px dotted $border-color;
+}
+
+.devices {
+  padding-left: -50px;
+  img {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  margin-top: 50px;
+  div {
+    display: block;
+    height: 100px;
+  }
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.question-mark {
+  margin-top: 30px;
+  padding: 0px 20px 0px 12px;
+  width: 30px;
+  color: $primary;
+  background-color: #33426B;
+  border-radius: 50px;
+  span {
+    font-size: 1.7em;
+  }
+}
+
+.tagline {
+  color: #B1B2B3;
+  font-size: 1.6em;
+}
